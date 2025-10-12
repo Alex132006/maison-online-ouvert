@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haute Maison - Excellence & Raffinement</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Élégante -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-symbol">◇</span>
+                <span class="brand-name">Haute Maison</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#heritage">Notre Héritage</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#savoir-faire">Savoir-Faire</a></li>
+                <li><a href="#contact">Rendez-vous</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="nav-btn search-btn" aria-label="Recherche">
+                    <span>Recherche</span>
+                </button>
+                <button class="nav-btn appointment-btn">
+                    Prendre rendez-vous
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section avec Carrousel d'Ambiance -->
+    <section class="hero-section">
+        <div class="hero-carousel">
+            <!-- Slide 1 -->
+            <div class="hero-slide active">
+                <div class="slide-background">
+                    <img src="https://images.unsplash.com/photo-1600585154340-2e3e482dd0c9?w=1200&h=800&fit=crop" alt="Architecture d'exception">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide-content">
+                    <div class="content-wrapper">
+                        <h1 class="hero-title">
+                            <span class="title-line">L'Art de</span>
+                            <span class="title-line">l'Excellence</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Depuis 1885, nous créons des espaces où le temps s'arrête, 
+                            où chaque détail raconte une histoire d'exception.
+                        </p>
+                        <div class="hero-actions">
+                            <button class="cta-primary">Découvrir notre univers</button>
+                            <button class="cta-secondary">
+                                <span>Explorer les créations</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide">
+                <div class="slide-background">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&h=800&fit=crop" alt="Artisanat d'art">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide-content">
+                    <div class="content-wrapper">
+                        <h1 class="hero-title">
+                            <span class="title-line">Savoir-Faire</span>
+                            <span class="title-line">Millénaire</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Un héritage de techniques ancestrales alliées à une vision contemporaine, 
+                            pour des créations intemporelles.
+                        </p>
+                        <div class="hero-actions">
+                            <button class="cta-primary">Rencontrer nos artisans</button>
+                            <button class="cta-secondary">
+                                <span>Notre histoire</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide">
+                <div class="slide-background">
+                    <img src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=1200&h=800&fit=crop" alt="Design exclusif">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide-content">
+                    <div class="content-wrapper">
+                        <h1 class="hero-title">
+                            <span class="title-line">Sur Mesure</span>
+                            <span class="title-line">Absolu</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Chaque projet est une œuvre unique, conçue dans le respect 
+                            des traditions et l'innovation des possibles.
+                        </p>
+                        <div class="hero-actions">
+                            <button class="cta-primary">Débuter un projet</button>
+                            <button class="cta-secondary">
+                                <span>Voir les réalisations</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contrôles Élégants -->
+        <div class="hero-controls">
+            <div class="slide-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+            
+            <div class="navigation-buttons">
+                <button class="nav-button prev-button" aria-label="Slide précédent">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+                <button class="nav-button next-button" aria-label="Slide suivant">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Explorer</span>
+        </div>
+    </section>
+
+    <!-- Section Collections Prestigieuses -->
+    <section class="collections-section">
+        <div class="section-header">
+            <h2 class="section-title">Collections Signature</h2>
+            <p class="section-subtitle">
+                Des pièces uniques où se mêlent tradition et innovation
+            </p>
+        </div>
+
+        <div class="collections-carousel">
+            <div class="carousel-track">
+                <!-- Collection 1 -->
+                <article class="collection-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=800&fit=crop" alt="Collection Héritage">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h3>Collection Héritage</h3>
+                                <p>Pièces intemporelles inspirées par les maîtres du XVIIIe siècle</p>
+                                <button class="discover-btn">Découvrir</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="collection-year">1789</span>
+                        <h3 class="collection-name">L'Héritage</h3>
+                        <p class="collection-desc">
+                            Une réinterprétation contemporaine des classiques français
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Collection 2 -->
+                <article class="collection-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&h=800&fit=crop" alt="Collection Moderne">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h3>Collection Moderne</h3>
+                                <p>Lignes épurées et matériaux innovants</p>
+                                <button class="discover-btn">Découvrir</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="collection-year">2024</span>
+                        <h3 class="collection-name">Le Contemporain</h3>
+                        <p class="collection-desc">
+                            L'avenir du design dans sa plus pure expression
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Collection 3 -->
+                <article class="collection-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=800&fit=crop" alt="Collection Nature">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h3>Collection Nature</h3>
+                                <p>Matériaux bruts et formes organiques</p>
+                                <button class="discover-btn">Découvrir</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="collection-year">2024</span>
+                        <h3 class="collection-name">L'Organique</h3>
+                        <p class="collection-desc">
+                            Quand la nature inspire l'excellence
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Collection 4 -->
+                <article class="collection-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&h=800&fit=crop" alt="Collection Royal">
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h3>Collection Royale</h3>
+                                <p>Le summum de l'artisanat français</p>
+                                <button class="discover-btn">Découvrir</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="collection-year">1820</span>
+                        <h3 class="collection-name">Le Royal</h3>
+                        <p class="collection-desc">
+                            Pour ceux qui recherchent l'exception absolue
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="collections-nav">
+            <button class="collection-prev" aria-label="Précédent">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </button>
+            <button class="collection-next" aria-label="Suivant">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Section Chiffres Prestigieux -->
+    <section class="prestige-section">
+        <div class="prestige-container">
+            <div class="prestige-item">
+                <div class="prestige-number">139</div>
+                <div class="prestige-label">Années d'Excellence</div>
+            </div>
+            <div class="prestige-item">
+                <div class="prestige-number">24</div>
+                <div class="prestige-label">Artisans Maîtres</div>
+            </div>
+            <div class="prestige-item">
+                <div class="prestige-number">1,247</div>
+                <div class="prestige-label">Projets Uniques</div>
+            </div>
+            <div class="prestige-item">
+                <div class="prestige-number">42</div>
+                <div class="prestige-label">Pays Desservis</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Luxueux -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="brand-symbol">◇</span>
+                <span class="brand-name">Haute Maison</span>
+                <p class="footer-tagline">
+                    L'excellence n'est pas un acte, mais une habitude.
+                </p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Maison</h4>
+                    <ul>
+                        <li><a href="#">Notre Histoire</a></li>
+                        <li><a href="#">Savoir-Faire</a></li>
+                        <li><a href="#">Presse</a></li>
+                        <li><a href="#">Carrières</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-group">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="#">Héritage</a></li>
+                        <li><a href="#">Contemporain</a></li>
+                        <li><a href="#">Sur Mesure</a></li>
+                        <li><a href="#">Archives</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-group">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Conseil</a></li>
+                        <li><a href="#">Restauration</a></li>
+                        <li><a href="#">Livraison Internationale</a></li>
+                        <li><a href="#">Certificat d'Authenticité</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Privé</h4>
+                <address>
+                    <p>18 Place de la Concorde<br>75008 Paris, France</p>
+                    <p>+33 1 42 86 99 00</p>
+                    <p>contact@hautemaison.com</p>
+                </address>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Haute Maison. Tous droits réservés.</p>
+            <div class="legal-links">
+                <a href="#">Confidentialité</a>
+                <a href="#">Mentions légales</a>
+                <a href="#">CGV</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
