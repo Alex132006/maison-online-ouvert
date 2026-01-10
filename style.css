@@ -62,6 +62,12 @@ body {
     letter-spacing: 0.5px;
 }
 
+.about-section,
+.team-section,
+.values-section {
+    padding: 30px;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
