@@ -278,6 +278,11 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 
+.about-image {
+    width: 30px;
+    
+}
+
 /* Contrôles Hero */
 .hero-controls {
     position: absolute;
